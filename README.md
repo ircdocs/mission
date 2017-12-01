@@ -44,6 +44,9 @@ The ole' irchelp website's a bit dodgy at the moment. Missing files, etc. I've h
 Probably won't actually do this, but depends on how the current maintainers of that site respond to the incoming PRs and all.
 
 
+---
+
+
 ### Functional
 
 These projects primarily assist implementors of IRC software today in various ways.
@@ -93,6 +96,9 @@ I haven't released the code or the source data files for this (the data files I 
 IRCv3 is a great group that helps push the IRC protocol forwards. I currently do most of their website stuff and am a bit of a spec nerd. Maintain [the repo](https://github.com/ircv3/ircv3.github.io) and [the website](http://ircv3.net), and move the site to HTTPS using Netlify's open source plan at some point.
 
 
+---
+
+
 ### Testing and Breaking
 
 Files and software that help test and fuzz new bits of IRC software. New implementations are cool, but being able to check whether they comply with other existing implementations and having fuzzers/stress-testers to bash on your software and try to break it five ways from Sunday are always a good idea.
@@ -117,9 +123,12 @@ Keep adding new tests, use it to influence where the Modern docs go and use the 
 This is a cute little Go app that tries to connect way too many clients and break servers, or at least help you see where and why your servers slow down. [Here's the repo](https://github.com/DanielOaks/irc-stress-test).
 
 
-### irc_fuzz.py
+#### irc_fuzz.py
 
 Little, simple fuzzer I wrote years and years ago, but still manages to find bugs! [Here it is](https://gist.github.com/DanielOaks/63ae611039cdf591dfa4).
+
+
+---
 
 
 ### Reference Implementations
