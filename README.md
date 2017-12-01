@@ -123,6 +123,11 @@ Keep adding new tests, use it to influence where the Modern docs go and use the 
 This is a cute little Go app that tries to connect way too many clients and break servers, or at least help you see where and why your servers slow down. [Here's the repo](https://github.com/DanielOaks/irc-stress-test).
 
 
+#### ircdog
+
+[ircdog](https://github.com/goshuirc/ircdog) helps debug raw protocol lines when full-blown clients might be a bit much. I use it a fair bit in my day-to-day testing and think it's pretty important to maintain and extend.
+
+
 #### irc_fuzz.py
 
 Little, simple fuzzer I wrote years and years ago, but still manages to find bugs! [Here it is](https://gist.github.com/DanielOaks/63ae611039cdf591dfa4).
@@ -141,11 +146,6 @@ Heh, 'reference implementations'. Really, just software I develop that I think h
 The [GoshuIRC org](https://github.com/goshuirc) is a lot of where this lives. For example, it has [irc-go](https://github.com/goshuirc/irc-go), which is I think a set of decent modules for Go that are the essence of reference code. Highly-tested, etc.
 
 There's also some other stuff on there, a Py lib I consider pretty good, a bot I haven't touched in ages, etc.
-
-
-#### ircdog
-
-Less a concrete reference implementation and more a useful testing tool, [ircdog](https://github.com/goshuirc/ircdog) helps debug raw protocol lines when full-blown clients might be a bit much. I use it a fair bit in my day-to-day testing and think it's pretty important to maintain and extend.
 
 
 #### Oragono
