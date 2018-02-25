@@ -22,14 +22,14 @@ These projects primarily, or in a large way, try to collect historical context f
 
 This section of the ircdocs.horse website contains and centralises some stuff written both lately and way back when: https://ircdocs.horse/history/
 
-I'm planning to extend this out a fair bit, maybe make a roughly-dated browser of maps, files, etc released, and of course link to the below lists archive when I get it online.
+I'm planning to extend this out a fair bit, maybe make a roughly-dated browser of maps, files, etc released, and of course link to the below lists archive when I get it online. For reference, here's some [FTP](https://archive.org/details/various-irc-ftps) and [WARC](https://archive.org/details/various-irc-sites.warc) backups.
 
 
 #### Usenet / Mailing List archives
 
 I've been collecting a bunch of mailing list and usenet archives, which I intend to collate together. I'm hoping to throw those online as `lists.ircdocs.horse`, but we'll see how those goes.
 
-As I collect the raw archives I'll be uploading them to the [Internet Archive](https://archive.org/).
+I've collected a bunch of archives already, which can be found [here](https://archive.org/details/irc.mailing.lists). However, I haven't post-processed them into a form where I'm happy putting them online under a subdomain yet.
 
 
 #### irc-archive
@@ -70,9 +70,9 @@ On a related note, [this](https://gist.github.com/DanielOaks/9e0993d8666a4c99786
 
 #### IETF Internet-Drafts
 
-The [irc-rfcs](https://github.com/DanielOaks/irc-rfcs) repo (and coincidentally, the actual [IDs themselves](https://tools.ietf.org/html/draft-oakley-irc-ctcp-01)) are something I'm experimenting with. Seeing whether the IETF's still interested in IRC and standardising it through their process.
+The [irc-rfcs](https://github.com/DanielOaks/irc-rfcs) repo (and coincidentally, the actual [IDs themselves](https://tools.ietf.org/html/draft-oakley-irc-ctcp-02)) are something I'm experimenting with. Seeing whether the IETF's still interested in IRC and standardising it through their process.
 
-Keep the doc updated, and when appropriate (when everything's actually consistent, etc) push it further up the IETF chain.
+I've started the standardisation process for the [CTCP doc](https://tools.ietf.org/html/draft-oakley-irc-ctcp-02), and we'll see how the IETF takes it forward.
 
 
 #### Definition Files
